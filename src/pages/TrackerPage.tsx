@@ -68,7 +68,7 @@ export default function ExpenseTracker() {
       <Button onClick={() => setModalOpened(true)}>Add Expense Item</Button>
       {/* Type additional AddExpenseModal here. */}
       <AddExpenseModal
-          opened={opened}
+          opened={modalOpened}
           onClose={() => setOpened(false)}
           onAdd={addExpenses}
         />
